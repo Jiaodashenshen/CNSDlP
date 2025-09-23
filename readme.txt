@@ -1,6 +1,12 @@
 README
-Overview:
-The script codes of all modules have been provided in the CNDlP.R file, including the BAM generation code (process_map). BAM functional clustering code (Consensus clustering & Hypergeometric test), and calling the python interface of the Pharmacological prediction model in R for CNS prediction score ranking.
 
-Dataset:
-Folder 'test_raw_data' contains 'BAM_test' for runnning the Pharmacological prediction module to get the CNS prediction score ranking, 'raw_data_test' for running the process_map to generate the BAM of drug1 and 'DF.xlsx' contains the information of test drugs.
+Overview：
+The CNDlP.R script encompasses the complete implementation of all core modules, including:
+·BAM (Biological Activity Map) generation via the process_map function
+·BAM functional clustering analysis (incorporating Consensus Clustering and Hypergeometric Test)
+·R interface for invoking the Python-based pharmacological prediction model, enabling CNS (Central Nervous System) prediction score ranking.
+
+Datasets：
+The test_raw_data directory contains the following key components:
+·BAM_test: Input data for the pharmacological prediction module, used to generate CNS prediction score rankings
+·raw_data_test: Raw input for the process_map function to generate BAM for drug1
