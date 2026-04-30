@@ -1,7 +1,4 @@
 README
-# CNSDIP: Computational Model for Anti-Parkinson Drug Screening
-Code for the manuscript "XXX"
-
 ## 1. System Requirements
 ### Software Dependencies (with version numbers)
 - R (version 4.3.2)
